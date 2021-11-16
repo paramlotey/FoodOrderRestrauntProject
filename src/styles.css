@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+.food1{
+    background-image: url("/assets/images/food1.jpg");
+}
+
+.food2{
+    background-image: url("/assets/images/food2.jpg");
+}
+
+.food3{
+    background-image: url("/assets/images/food3.jpg");
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -19,7 +19,7 @@ import { SignupComponent } from './signup/signup.component';
     FooterComponent,
     FoodresultsComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
   ],
   imports: [
     CommonModule,
