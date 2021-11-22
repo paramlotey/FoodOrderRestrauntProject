@@ -5,7 +5,6 @@ import { ContactComponent } from './contact/contact.component';
 import { DashboardCompComponent } from './dashboard-comp/dashboard-comp.component';
 import { FoodresultsComponent } from './foodresults/foodresults.component';
 import { HomeComponent } from './home/home.component';
-import { LoginComponent } from './login/login.component';
 import { MapresultsComponent } from './mapresults/mapresults.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { ProfileComponent } from './profile/profile.component';
@@ -24,7 +23,7 @@ const routes: Routes = [
     {path: "checkout", component: CheckoutComponent},
     {path: "pricing", component: PricingComponent},
     {path: "submit", component: SubmitComponent},
-    {path: "contact", component: ContactComponent},
+    {path: "contact", component: ContactComponent}
   ]},
 ];
 
