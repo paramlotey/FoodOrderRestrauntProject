@@ -14,6 +14,9 @@ import { RestaurantsComponent } from './restaurants/restaurants.component';
 import { ProfileComponent } from './profile/profile.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { OtpComponent } from './otp/otp.component';
+import { PricingComponent } from './pricing/pricing.component';
+import { SubmitComponent } from './submit/submit.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -29,6 +32,9 @@ import { OtpComponent } from './otp/otp.component';
     ProfileComponent,
     CheckoutComponent,
     OtpComponent,
+    PricingComponent,
+    SubmitComponent,
+    ContactComponent,
   ],
   imports: [
     CommonModule,
