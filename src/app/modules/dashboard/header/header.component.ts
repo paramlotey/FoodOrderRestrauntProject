@@ -9,6 +9,7 @@ import { LoginComponent } from '../login/login.component';
 })
 export class HeaderComponent implements OnInit {
 
+  
   constructor(private dialog: MatDialog){}
 
     openLogin(){

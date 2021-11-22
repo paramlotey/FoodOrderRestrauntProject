@@ -1,12 +1,24 @@
+.LoginForm{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("/assets/images/loginBanner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.banner{
+    padding: 9rem 1rem;
+}
+
 .center{
     display: grid;
     place-content: center;
 }
 
-.form-group h2{
-    font-size: 1rem;
-}
-
 .btn-m{
     border-radius: 5px;
+}
+
+h1 {
+    color: white;
+    font-weight: 600;
 }

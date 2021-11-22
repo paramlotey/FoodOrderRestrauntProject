@@ -33,7 +33,7 @@ import { OtpComponent } from './otp/otp.component';
   imports: [
     CommonModule,
     DashboardRoutingModule,
-    NgxOtpInputModule
+    NgxOtpInputModule,
   ]
 })
 export class DashboardModule { }

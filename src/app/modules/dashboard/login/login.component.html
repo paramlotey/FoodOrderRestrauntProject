@@ -1,15 +1,16 @@
 <section class="LoginForm">
-    <h1>Log In</h1>
+    <div class="banner center">
+        <h1>Log In</h1>
 
-    <form class="m-2 center">
+        <form class="m-2 center form">
+            <div class="center">
+                <div class="form-group center">
+                    <input title="Phone" type="text" ng2TelInput />
+                </div>
 
-        <div class="center">
-            <div class="form-group center">
-                <input class="form-control" type="tel" value="" placeholder="Phone Number">
+                <button (click)="openOTP()" type="button" class="btn theme-btn btn-m">Send OTP</button>
             </div>
+        </form>
+    </div>
 
-            <button (click)="openOTP()" type="button" class="btn theme-btn btn-m">Submit</button>
-
-        </div>
-    </form>
 </section>

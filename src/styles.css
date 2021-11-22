@@ -14,6 +14,10 @@
 .food3{
     background-image: url("/assets/images/food3.jpg");
 }
+
+.mat-dialog-container {
+    padding: 2px !important;
+}
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
