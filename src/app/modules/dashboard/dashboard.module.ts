@@ -12,6 +12,9 @@ import { SignupComponent } from './signup/signup.component';
 import { MapresultsComponent } from './mapresults/mapresults.component';
 import { RestaurantsComponent } from './restaurants/restaurants.component';
 import { ProfileComponent } from './profile/profile.component';
+import { PricingComponent } from './pricing/pricing.component';
+import { SubmitComponent } from './submit/submit.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -26,6 +29,9 @@ import { ProfileComponent } from './profile/profile.component';
     MapresultsComponent,
     RestaurantsComponent,
     ProfileComponent,
+    PricingComponent,
+    SubmitComponent,
+    ContactComponent,
   ],
   imports: [
     CommonModule,
