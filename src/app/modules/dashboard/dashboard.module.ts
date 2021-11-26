@@ -7,16 +7,14 @@ import { DashboardCompComponent } from './dashboard-comp/dashboard-comp.componen
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { FoodresultsComponent } from './foodresults/foodresults.component';
 import { LoginComponent } from './login/login.component';
 import { MapresultsComponent } from './mapresults/mapresults.component';
-import { RestaurantsComponent } from './restaurants/restaurants.component';
-import { ProfileComponent } from './profile/profile.component';
-import { CheckoutComponent } from './checkout/checkout.component';
 import { OtpComponent } from './otp/otp.component';
-import { PricingComponent } from './pricing/pricing.component';
-import { SubmitComponent } from './submit/submit.component';
 import { ContactComponent } from './contact/contact.component';
+import { MenuComponent } from './menu/menu.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { CurOrdersComponent } from './cur-orders/cur-orders.component';
+import { PreOrdersComponent } from './pre-orders/pre-orders.component';
 
 
 @NgModule({
@@ -25,16 +23,16 @@ import { ContactComponent } from './contact/contact.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    FoodresultsComponent,
     LoginComponent,
     MapresultsComponent,
-    RestaurantsComponent,
-    ProfileComponent,
-    CheckoutComponent,
+    CurOrdersComponent,
+    PreOrdersComponent,
     OtpComponent,
-    PricingComponent,
-    SubmitComponent,
     ContactComponent,
+    MenuComponent,
+    AboutUsComponent,
+    CurOrdersComponent,
+    PreOrdersComponent,
   ],
   imports: [
     CommonModule,
